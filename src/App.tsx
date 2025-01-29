@@ -72,11 +72,11 @@ function App() {
             <h2 className="text-5xl font-bold text-gray-400 mb-6">I build things for the web.</h2>
             <p className="max-w-2xl text-gray-400 mb-8 text-lg">Full Stack Developer building websites and web applications using ReactJS, NextJS, and modern JavaScript tools. Experienced in developing effective solutions and productive relationships.</p>
             <div className="flex gap-6 mb-12">
-              <a href="mailto:niladripal160@gmail.com" className="flex items-center gap-2 border border-[#64ffda] text-[#64ffda] px-6 py-3 rounded hover:bg-[#64ffda]/10 transition-colors">
+              <a href="mailto:niladripal160@gmail.com" target="_blank" className="flex items-center gap-2 border border-[#64ffda] text-[#64ffda] px-6 py-3 rounded hover:bg-[#64ffda]/10 transition-colors">
                 <Mail size={20} />
                 Contact Me
               </a>
-              <a href="#" className="flex items-center gap-2 border border-[#64ffda] text-[#64ffda] px-6 py-3 rounded hover:bg-[#64ffda]/10 transition-colors">
+              <a href="https://github.com/Rohan403" target="_blank" className="flex items-center gap-2 border border-[#64ffda] text-[#64ffda] px-6 py-3 rounded hover:bg-[#64ffda]/10 transition-colors">
                 <Github size={20} />
                 GitHub
               </a>
@@ -84,7 +84,9 @@ function App() {
             <div className="flex flex-wrap gap-6 text-gray-400">
               <div className="flex items-center gap-2">
                 <Phone size={20} className="text-[#64ffda]" />
-                <span>+91 9556903109</span>
+                <a href="tel:+919556903109" target="_blank" className="hover:text-[#64ffda] transition-colors">
+                  Phone
+                </a>
               </div>
               <div className="flex items-center gap-2">
                 <Mail size={20} className="text-[#64ffda]" />
@@ -96,7 +98,7 @@ function App() {
               </div>
               <div className="flex items-center gap-2">
                 <Linkedin size={20} className="text-[#64ffda]" />
-                <a href="#" className="hover:text-[#64ffda] transition-colors">
+                <a href="https://www.linkedin.com/in/niladri-pal-670480213/" target="_blank" className="hover:text-[#64ffda] transition-colors">
                   LinkedIn Profile
                 </a>
               </div>
